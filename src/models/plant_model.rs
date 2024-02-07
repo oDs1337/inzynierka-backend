@@ -11,6 +11,6 @@ pub struct Plant {
 
 #[derive(Clone, Serialize, Deserialize, Debug)]
 pub struct Data {
-    pub timestamp: String,
-    pub value: f64,
+    pub timestamp: i64,
+    pub value: i64,
 }
